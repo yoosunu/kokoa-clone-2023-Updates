@@ -1,0 +1,10 @@
+.notice {
+  /* 아이콘 span에 넣어놨을텐데 span을 div로 감싸주고 이 component사용할 것. */
+  height: 5px;
+  width: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: relative;
+  bottom: 15px;
+  left: 30px;
+}

@@ -1,0 +1,7 @@
+:root {
+  --yellow: #fae100;
+  --horizontal-space: 25px;
+  --divining-border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* 회색을 변수로 만드는 것은 개인적으로 회색이 그 회색마다 조금씩 차이가 있는데, 그 차이를 구현해 내는 것을 즐기기 때문에 따로 변수로 만들지 않았습니다. */

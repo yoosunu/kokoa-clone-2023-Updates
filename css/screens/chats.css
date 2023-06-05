@@ -1,0 +1,18 @@
+.chatting-room {
+  border-bottom: var(--divining-border);
+}
+
+.piyoz-message__time {
+  display: flex;
+  flex-direction: column;
+}
+
+.piyoz-message__time p {
+  position: relative;
+  right: 8px;
+  color: tomato;
+}
+
+.reply i {
+  cursor: pointer;
+}

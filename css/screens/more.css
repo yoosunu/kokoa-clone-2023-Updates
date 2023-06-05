@@ -1,0 +1,39 @@
+.more-screen .icon-row {
+  margin-top: 35px;
+  padding-bottom: 35px;
+
+  border-bottom: var(--divining-border);
+}
+
+.more-suggestions {
+  padding: 30px 0px 25px 0px;
+}
+
+.more-suggestions h4 {
+  font-size: 16px;
+}
+
+.more-friends {
+  display: flex;
+}
+
+.more-friends__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.more-friends__list img {
+  height: 65px;
+  width: 65px;
+  border-radius: 15px;
+}
+
+.more-friends__list h5 {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.6);
+}

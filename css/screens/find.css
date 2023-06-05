@@ -1,0 +1,157 @@
+#Add-by-Contacts {
+  text-align: center;
+}
+
+.recommended-friends {
+  margin: 22px 0px;
+  padding: 22px 0px;
+  border-top: var(--divining-border);
+  border-bottom: var(--divining-border);
+}
+
+.recommended-friends__title {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 19px;
+}
+
+.open-chat-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.open-chat__Home-btn span {
+  opacity: 0.5;
+}
+
+.open-chattings-list-ex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.open-chattings__column__main-hash {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.open-chattings__column__sub-hash {
+  font-size: 18px;
+  padding-bottom: 5px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chattings__img {
+  position: relative;
+}
+
+.open-chattings__img img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.open-chattings__img-heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: whitesmoke;
+  position: absolute;
+  bottom: 10px;
+  right: 6px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.open-chattings__img-heart:active {
+  color: red;
+}
+
+.open-chattings__img-heart i {
+  padding: 0px 3px 0px 3px;
+}
+
+.open-chattings__img-heart span {
+  font-size: 13px;
+  padding-right: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-chattings__img-heart:hover i {
+  will-change: transform;
+  animation: heartBeat 2s linear infinite;
+}
+
+.open-chattings__column__info {
+  display: flex;
+}
+
+.open-chattings__column__info-member {
+  padding-right: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.open-chattings__column__info-member img {
+  height: 30px;
+  width: 30px;
+  margin-right: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.open-chattings__column__info-active {
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-chattings__column__info-active h5 {
+  color: magenta;
+}
+
+.open-chattings-list-ex:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-shadow: 0px 10px 100px 10px rgba(227, 193, 113, 0.922);
+}
+
+.icon-row__icon {
+  cursor: pointer;
+}
+
+.open-chat__Home-btn span {
+  cursor: pointer;
+}

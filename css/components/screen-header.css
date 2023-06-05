@@ -1,0 +1,50 @@
+.screen-header {
+  display: flex;
+  padding: var(--horizontal-space);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.screen-header i {
+  cursor: pointer;
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.screen-header__title-chat {
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  left: 35px;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__icons {
+  display: flex;
+}
+
+@keyframes rotateCog {
+  from {
+    transfrom: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateCog 2s linear infinite;
+}
+
+.icon-boxes {
+  display: block;
+  display: flex;
+  align-items: center;
+}

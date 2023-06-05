@@ -1,0 +1,8 @@
+.history__back-btn {
+  border-style: none;
+  background-color: inherit;
+}
+
+.history__back-btn:hover {
+  cursor: pointer;
+}

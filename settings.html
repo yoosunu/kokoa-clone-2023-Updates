@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Settings - Kokoa clone</title>
+    <script
+      src="https://kit.fontawesome.com/8728ad39f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <span class="icon-boxes">
+        <button class="history__back-btn" onclick="history.back()">
+          <!-- used history object of window -->
+          <i class="fa-solid fa-chevron-left fa-2x"></i></button
+      ></span>
+      <h1 class="screen-header__title">Settings</h1>
+      <div class="screen-header__icons">
+        <span class="icon-boxes">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </span>
+      </div>
+    </header>
+    <main class="main-screen main-screen-setting">
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span><i class="fas fa-bullhorn"></i>Notices</span>
+        </div>
+        <div class="settings-column-2"><span></span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span><i class="fa-solid fa-flask"></i>Bunny Lab</span>
+        </div>
+        <div class="settings-column-2"><span></span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span><i class="fa-solid fa-circle-info"></i>Version</span>
+        </div>
+        <div class="settings-column-2"><span>Latest Version</span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span><i class="fas fa-light fa-lock"></i>Privacy</span>
+        </div>
+        <div class="settings-column-2"><span></span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span><i class="fa-regular fa-bell"></i>Notifications</span>
+        </div>
+        <div class="settings-column-2"><span></span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span><i class="fa-regular fa-user"></i>Friends</span>
+        </div>
+        <div class="settings-column-2"><span></span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span><i class="fa-regular fa-comment"></i>Chats</span>
+        </div>
+        <div class="settings-column-2"><span></span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span
+            ><i class="fa-solid fa-display"></i>Display<i
+              class="badge badge-setting"
+              ><h6>N</h6></i
+            ></span
+          >
+        </div>
+        <div class="settings-column-2"><span></span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span
+            ><i class="fa-solid fa-paintbrush"></i>Themes<i
+              class="badge badge-setting"
+              ><h6>N</h6></i
+            ></span
+          >
+        </div>
+        <div class="settings-column-2"><span>Default theme</span></div>
+      </div>
+      <div class="main-screen__settings">
+        <div class="settings-column-1">
+          <span><i class="fa-solid fa-phone"></i>Call</span>
+        </div>
+        <div class="settings-column-2"><span></span></div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification"></span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notice"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big !!</span>
+    </div>
+  </body>
+</html>
